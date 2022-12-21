@@ -124,6 +124,90 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Tuberias_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 37
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fa2d9fd5b9f894e844171659147d9d
+      internalID: 2092125099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tuberias_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 73
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b29b59178847cf4a855f5fc13fa5f7a
+      internalID: 1497163427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tuberias_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 93
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fd21154d6adc147abcd4ee02f8ed99
+      internalID: 911442703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tuberias_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac42b57d67213947b169e08f080811f
+      internalID: 1807387615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -136,6 +220,10 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Tuberias_0: 853063114
+      Tuberias_3: -223376142
+      Tuberias_1: -1475872448
+      Tuberias_4: -946704261
+      Tuberias_2: 2092125099
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -217,7 +217,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -225,6 +225,69 @@ TextureImporter:
       bones: []
       spriteID: 8af4eb08ee2126a48829ce3b9283ee28
       internalID: 234332743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ladrillos_6
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 95
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b906d10d4fbd6c40820981fd4f3ac3e
+      internalID: 2080068134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ladrillos_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf4ea40fd61c2d43ba32adb99279a67
+      internalID: -1280072572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ladrillos_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 39
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c365eeebf605a4ab29f9c7409a4fd8
+      internalID: 868300628
       vertices: []
       indices: 
       edges: []
@@ -241,11 +304,14 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Ladrillos_1: -425394746
+      Ladrillos_7: 811324934
       Ladrillos_3: -1046904993
       Ladrillos_5: 234332743
       Ladrillos_0: -1075713252
       Ladrillos_4: -1017863257
+      Ladrillos_6: -1970072821
       Ladrillos_2: -1569850898
+      Ladrillos_8: -606469449
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
