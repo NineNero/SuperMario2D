@@ -30,7 +30,7 @@ public class PlayerControler : MonoBehaviour
     {
         horizontal = Input.GetAxis("Horizontal");
 
-        transform.position += new Vector3(horizontal, 0, 0) * playerspeed * Time.deltaTime;
+        //transform.position += new Vector3(horizontal, 0, 0) * playerspeed * Time.deltaTime;
 
         if(horizontal < 0)
         {
@@ -52,5 +52,10 @@ public class PlayerControler : MonoBehaviour
             rBody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             anim.SetBool("IsJumping", true);
         }
+    }
+
+    void FixedUpdate()
+    {
+        rBody.velocity = new Vector2(horizontal * playerspeed, rBody.velocity.y);
     }
 }
