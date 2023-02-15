@@ -6,6 +6,7 @@ TagManager:
   tags:
   - DeadZone
   - ColisionGoomba
+  - ColisionMoney
   layers:
   - Default
   - TransparentFX
@@ -16,8 +17,8 @@ TagManager:
   - Enemies
   - PowerUps
   - ColisionGoomba
-  - 
-  - 
+  - CollisionMoney
+  - Money
   - 
   - 
   - 
