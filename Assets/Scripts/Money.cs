@@ -4,22 +4,21 @@ using UnityEngine;
 
 public class Money : MonoBehaviour
 {
-    public AudioClip coinSound;
+    private SFXManager sfxManager;
+
+    void Awake()
+    {
+        sfxManager = GameObject.Find("SFXManager").GetComponent<SFXManager>();
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            sfxManager.CoinSound();
             Destroy(gameObject);
-            source.PlayOneShot(coinSound);
         }
     
     }
-    
-        private AudioSource source;
-    // Start is called before the first frame update
-    void Awake()
-    {
-        source = GetComponent<AudioSource>();
-    }
+     
 }
