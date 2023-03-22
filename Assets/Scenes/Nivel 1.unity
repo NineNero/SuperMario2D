@@ -2813,11 +2813,10 @@ GameObject:
   - component: {fileID: 91477228}
   - component: {fileID: 91477232}
   - component: {fileID: 91477231}
-  - component: {fileID: 91477230}
   - component: {fileID: 91477229}
   m_Layer: 10
   m_Name: Coins1_0 (15)
-  m_TagString: ColisionMoney
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2863,18 +2862,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.875}
   m_EdgeRadius: 0
---- !u!114 &91477230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 91477227}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926ccf05cd87d5a4eb8d5a6449d0216f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &91477231
 Animator:
   serializedVersion: 4
@@ -8766,11 +8753,10 @@ GameObject:
   - component: {fileID: 312664601}
   - component: {fileID: 312664605}
   - component: {fileID: 312664604}
-  - component: {fileID: 312664603}
   - component: {fileID: 312664602}
   m_Layer: 10
   m_Name: Coins1_0 (5)
-  m_TagString: ColisionMoney
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8816,18 +8802,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.875}
   m_EdgeRadius: 0
---- !u!114 &312664603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 312664600}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926ccf05cd87d5a4eb8d5a6449d0216f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &312664604
 Animator:
   serializedVersion: 4
@@ -9737,6 +9711,107 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &353526666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 353526670}
+  - component: {fileID: 353526669}
+  - component: {fileID: 353526668}
+  - component: {fileID: 353526667}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &353526667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353526666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &353526668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353526666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &353526669
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353526666}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &353526670
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353526666}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1723683030}
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &355512197
 GameObject:
   m_ObjectHideFlags: 0
@@ -11279,11 +11354,10 @@ GameObject:
   - component: {fileID: 413452485}
   - component: {fileID: 413452489}
   - component: {fileID: 413452488}
-  - component: {fileID: 413452487}
   - component: {fileID: 413452486}
   m_Layer: 10
   m_Name: Coins1_0 (4)
-  m_TagString: ColisionMoney
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11329,18 +11403,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.875}
   m_EdgeRadius: 0
---- !u!114 &413452487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413452484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926ccf05cd87d5a4eb8d5a6449d0216f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &413452488
 Animator:
   serializedVersion: 4
@@ -18442,11 +18504,10 @@ GameObject:
   - component: {fileID: 684771821}
   - component: {fileID: 684771825}
   - component: {fileID: 684771824}
-  - component: {fileID: 684771823}
   - component: {fileID: 684771822}
   m_Layer: 10
   m_Name: Coins1_0 (3)
-  m_TagString: ColisionMoney
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18492,18 +18553,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.875}
   m_EdgeRadius: 0
---- !u!114 &684771823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 684771820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926ccf05cd87d5a4eb8d5a6449d0216f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &684771824
 Animator:
   serializedVersion: 4
@@ -20513,11 +20562,10 @@ GameObject:
   - component: {fileID: 754157291}
   - component: {fileID: 754157295}
   - component: {fileID: 754157294}
-  - component: {fileID: 754157293}
   - component: {fileID: 754157292}
   m_Layer: 10
   m_Name: Coins1_0 (7)
-  m_TagString: ColisionMoney
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20563,18 +20611,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.875}
   m_EdgeRadius: 0
---- !u!114 &754157293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 754157290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926ccf05cd87d5a4eb8d5a6449d0216f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &754157294
 Animator:
   serializedVersion: 4
@@ -24502,6 +24538,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &861790693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 861790695}
+  - component: {fileID: 861790694}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &861790694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861790693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60929d17dc4a2b24480b0100ca18f7cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGameOver: 0
+  coinText: {fileID: 1723683031}
+--- !u!4 &861790695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861790693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -92.22494, y: 2.6057398, z: 0.051074766}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &865014564
 GameObject:
   m_ObjectHideFlags: 0
@@ -24708,11 +24790,10 @@ GameObject:
   - component: {fileID: 867527820}
   - component: {fileID: 867527824}
   - component: {fileID: 867527823}
-  - component: {fileID: 867527822}
   - component: {fileID: 867527821}
   m_Layer: 10
   m_Name: Coins1_0 (10)
-  m_TagString: ColisionMoney
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24758,18 +24839,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.875}
   m_EdgeRadius: 0
---- !u!114 &867527822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 867527819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926ccf05cd87d5a4eb8d5a6449d0216f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &867527823
 Animator:
   serializedVersion: 4
@@ -25048,11 +25117,10 @@ GameObject:
   - component: {fileID: 884631244}
   - component: {fileID: 884631248}
   - component: {fileID: 884631247}
-  - component: {fileID: 884631246}
   - component: {fileID: 884631245}
   m_Layer: 10
   m_Name: Coins1_0 (6)
-  m_TagString: ColisionMoney
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25098,18 +25166,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.875}
   m_EdgeRadius: 0
---- !u!114 &884631246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 884631243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926ccf05cd87d5a4eb8d5a6449d0216f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &884631247
 Animator:
   serializedVersion: 4
@@ -27257,11 +27313,10 @@ GameObject:
   - component: {fileID: 962060691}
   - component: {fileID: 962060692}
   - component: {fileID: 962060693}
-  - component: {fileID: 962060694}
   - component: {fileID: 962060695}
   m_Layer: 10
   m_Name: Coins1_0
-  m_TagString: ColisionMoney
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27353,18 +27408,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &962060694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 962060690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926ccf05cd87d5a4eb8d5a6449d0216f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &962060695
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33371,11 +33414,10 @@ GameObject:
   - component: {fileID: 1138573448}
   - component: {fileID: 1138573452}
   - component: {fileID: 1138573451}
-  - component: {fileID: 1138573450}
   - component: {fileID: 1138573449}
   m_Layer: 10
   m_Name: Coins1_0 (12)
-  m_TagString: ColisionMoney
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33421,18 +33463,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.875}
   m_EdgeRadius: 0
---- !u!114 &1138573450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1138573447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926ccf05cd87d5a4eb8d5a6449d0216f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &1138573451
 Animator:
   serializedVersion: 4
@@ -36603,11 +36633,10 @@ GameObject:
   - component: {fileID: 1250748383}
   - component: {fileID: 1250748387}
   - component: {fileID: 1250748386}
-  - component: {fileID: 1250748385}
   - component: {fileID: 1250748384}
   m_Layer: 10
   m_Name: Coins1_0 (1)
-  m_TagString: ColisionMoney
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36653,18 +36682,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.875}
   m_EdgeRadius: 0
---- !u!114 &1250748385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250748382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926ccf05cd87d5a4eb8d5a6449d0216f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &1250748386
 Animator:
   serializedVersion: 4
@@ -38674,11 +38691,10 @@ GameObject:
   - component: {fileID: 1306356841}
   - component: {fileID: 1306356845}
   - component: {fileID: 1306356844}
-  - component: {fileID: 1306356843}
   - component: {fileID: 1306356842}
   m_Layer: 10
   m_Name: Coins1_0 (9)
-  m_TagString: ColisionMoney
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38724,18 +38740,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.875}
   m_EdgeRadius: 0
---- !u!114 &1306356843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1306356840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926ccf05cd87d5a4eb8d5a6449d0216f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &1306356844
 Animator:
   serializedVersion: 4
@@ -39757,11 +39761,10 @@ GameObject:
   - component: {fileID: 1329298948}
   - component: {fileID: 1329298952}
   - component: {fileID: 1329298951}
-  - component: {fileID: 1329298950}
   - component: {fileID: 1329298949}
   m_Layer: 10
   m_Name: Coins1_0 (2)
-  m_TagString: ColisionMoney
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39807,18 +39810,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.875}
   m_EdgeRadius: 0
---- !u!114 &1329298950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1329298947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926ccf05cd87d5a4eb8d5a6449d0216f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &1329298951
 Animator:
   serializedVersion: 4
@@ -43276,7 +43267,7 @@ GameObject:
   - component: {fileID: 1441059072}
   m_Layer: 3
   m_Name: Tuberia 4
-  m_TagString: Untagged
+  m_TagString: ColisionGoomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44810,11 +44801,10 @@ GameObject:
   - component: {fileID: 1477578908}
   - component: {fileID: 1477578912}
   - component: {fileID: 1477578911}
-  - component: {fileID: 1477578910}
   - component: {fileID: 1477578909}
   m_Layer: 10
   m_Name: Coins1_0 (11)
-  m_TagString: ColisionMoney
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44860,18 +44850,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.875}
   m_EdgeRadius: 0
---- !u!114 &1477578910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1477578907}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926ccf05cd87d5a4eb8d5a6449d0216f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &1477578911
 Animator:
   serializedVersion: 4
@@ -50848,11 +50826,10 @@ GameObject:
   - component: {fileID: 1683092394}
   - component: {fileID: 1683092398}
   - component: {fileID: 1683092397}
-  - component: {fileID: 1683092396}
   - component: {fileID: 1683092395}
   m_Layer: 10
   m_Name: Coins1_0 (14)
-  m_TagString: ColisionMoney
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50898,18 +50875,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.875}
   m_EdgeRadius: 0
---- !u!114 &1683092396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1683092393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926ccf05cd87d5a4eb8d5a6449d0216f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &1683092397
 Animator:
   serializedVersion: 4
@@ -51299,11 +51264,10 @@ GameObject:
   - component: {fileID: 1689109549}
   - component: {fileID: 1689109553}
   - component: {fileID: 1689109552}
-  - component: {fileID: 1689109551}
   - component: {fileID: 1689109550}
   m_Layer: 10
   m_Name: Coins1_0 (8)
-  m_TagString: ColisionMoney
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51349,18 +51313,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.875}
   m_EdgeRadius: 0
---- !u!114 &1689109551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1689109548}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926ccf05cd87d5a4eb8d5a6449d0216f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &1689109552
 Animator:
   serializedVersion: 4
@@ -52622,6 +52574,74 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1706482776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1706482779}
+  - component: {fileID: 1706482778}
+  - component: {fileID: 1706482777}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1706482777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706482776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1706482778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706482776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1706482779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706482776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1709280569
 GameObject:
   m_ObjectHideFlags: 0
@@ -52790,6 +52810,86 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1723683029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1723683030}
+  - component: {fileID: 1723683032}
+  - component: {fileID: 1723683031}
+  m_Layer: 5
+  m_Name: CoinsText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1723683030
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723683029}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 353526670}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 828, y: 383}
+  m_SizeDelta: {x: 160, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1723683031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723683029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 1f0aed39ad5c8aa43a6aa5155443b94e, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 0
+--- !u!222 &1723683032
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723683029}
+  m_CullTransparentMesh: 1
 --- !u!1 &1734746170
 GameObject:
   m_ObjectHideFlags: 0
@@ -55484,7 +55584,7 @@ GameObject:
   - component: {fileID: 1814548962}
   m_Layer: 3
   m_Name: Tuberia 3
-  m_TagString: Untagged
+  m_TagString: ColisionGoomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57530,11 +57630,10 @@ GameObject:
   - component: {fileID: 1876048006}
   - component: {fileID: 1876048010}
   - component: {fileID: 1876048009}
-  - component: {fileID: 1876048008}
   - component: {fileID: 1876048007}
   m_Layer: 10
   m_Name: Coins1_0 (13)
-  m_TagString: ColisionMoney
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57580,18 +57679,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.875}
   m_EdgeRadius: 0
---- !u!114 &1876048008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1876048005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926ccf05cd87d5a4eb8d5a6449d0216f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &1876048009
 Animator:
   serializedVersion: 4
