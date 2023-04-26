@@ -24421,6 +24421,7 @@ MonoBehaviour:
   powerUpDuration: 5
   powerUpTimer: 0
   coinText: {fileID: 1723683031}
+  enemiesInScreen: []
 --- !u!4 &861790695
 Transform:
   m_ObjectHideFlags: 0
